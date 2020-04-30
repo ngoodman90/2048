@@ -223,4 +223,4 @@ class BoardTests(TestCase):
                                          [4, 8, 4, 2],
                                          [8, 4, 8, 4],
                                          [4, 2, 4, 2048]])
-        self.assertFalse(g.has_won())
+        self.assertTrue(g.has_won())
